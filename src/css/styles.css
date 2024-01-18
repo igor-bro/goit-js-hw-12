@@ -63,8 +63,7 @@
   letter-spacing: inherit;
 }
 
-.search-btn {
-  min-width: 91px;
+.btn {
   height: 40px;
   padding: 8px 16px;
   display: inline-flex;
@@ -82,9 +81,19 @@
   letter-spacing: inherit;
 }
 
-.search-btn:hover,
-.search-btn:focus {
+.btn:hover,
+.btn:focus {
   background-color: #6c8cff;
+}
+
+.search-btn {
+  min-width: 91px;
+}
+
+.load-more-btn {
+  min-width: 125px;
+  margin: 32px auto 0 auto;
+  display: flex;
 }
 
 .loading-message {
@@ -98,7 +107,7 @@
   padding-top: 24px;
   padding-bottom: 24px;
   margin: 0 auto;
-  justify-content: center;
+  /* justify-content: center; */
   flex-wrap: wrap;
   gap: 24px;
 }
